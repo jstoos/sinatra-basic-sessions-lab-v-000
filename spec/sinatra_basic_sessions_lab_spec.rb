@@ -21,7 +21,7 @@ describe App do
 
       fill_in(:item, :with => "socks")
       click_button "submit"
-      binding.pry
+      #binding.pry
       expect(page).to have_text("socks")
     end
 
